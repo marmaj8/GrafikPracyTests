@@ -13,7 +13,7 @@ namespace GrafikPracyTest
     {
         public static void WaitForJavascript(int seconds)
         {
-            Thread.Sleep(100);
+            Thread.Sleep(1000);
             WebDriverWait wait = new WebDriverWait(PropertiesCollection.driver, new TimeSpan(0,0,seconds));
             wait.Until(driver => (bool)((IJavaScriptExecutor)driver).
             //ExecuteScript("return jQuery.active == 0"));

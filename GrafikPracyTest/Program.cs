@@ -433,7 +433,6 @@ namespace GrafikPracyTest
         }
 
         [Test]
-        [TestCase(1, 2, false)]
         [TestCase(1, 2, true)]
         [TestCase(2, 1, true)]
         [TestCase(2, 1, false)]
